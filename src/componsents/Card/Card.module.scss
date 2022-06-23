@@ -1,0 +1,34 @@
+.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform .2s;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.img{
+    width: 100%;
+    margin-bottom: 40px;
+
+    img{
+        max-width: 100%;
+    }
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    p{
+        justify-self: center;
+        color: black;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+    }
+}

@@ -1,0 +1,16 @@
+.sortCategory{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.sortItem{
+    cursor: pointer;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.selectContent{
+    display: flex;
+    flex-direction: column;
+}

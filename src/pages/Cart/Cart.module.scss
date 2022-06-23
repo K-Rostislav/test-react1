@@ -1,0 +1,32 @@
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item{
+    min-width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img{
+    max-width: 100px;
+}
