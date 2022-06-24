@@ -1,3 +1,4 @@
+import React from 'react';
 import { useSelector } from 'react-redux';
 import styles from './Cart.module.scss';
 import { Link } from 'react-router-dom';
@@ -5,7 +6,7 @@ import { Link } from 'react-router-dom';
 import CartItem from './cartItem';
 import { RootState } from '../../redux/store';
 
-function Cart() {
+const Cart: React.FC = () => {
 
   const product = useSelector((state: RootState) => state.cartSlice.items);
   const count = useSelector((state: RootState) => state.cartSlice.count);
